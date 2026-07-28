@@ -3,23 +3,37 @@ title: Support
 permalink: /support/
 ---
 
-# Support for Private AI Journal
+# Desandar Support
 
-Private AI Journal is a secure, local-first journal with on-device AI.
+Desandar (formerly Private AI Journal) is a local-first journal with on-device intelligence and private iCloud sync.
 
-## Getting Help
+## Contact
 
-For support, questions, or privacy-related requests, contact:
+For support, questions, feedback, or privacy-related requests, email:
 
 **Paul DeSalvo**  
-talus.llano-3k@icloud.com
+[talus.llano-3k@icloud.com](mailto:talus.llano-3k@icloud.com)
 
-## Before Contacting Support
+When reporting a problem, please include your device model, operating-system version, and a short description of what happened. Do not send private journal content unless you intentionally choose to share it.
 
-For common device permission issues, check iOS Settings for Private AI Journal and confirm that the permission you want to use is enabled.
+## Common Help
 
-Private AI Journal does not have user accounts, a custom backend, or server-side access to your journal. Journal entries, audio, photos, transcripts, and AI-assisted reflections stay on your device unless you choose to export or share them.
+### Permissions
 
-## Privacy Policy
+Open the Settings app on your device, select **Desandar**, and confirm that the permission needed for the feature is enabled. Microphone, speech recognition, photos, calendar, reminders, health, location, and Face ID access are optional and requested only for related features.
 
-Read the [Private AI Journal Privacy Policy](../).
+### iCloud Sync
+
+Desandar stores journal data locally and can sync entries and attachments through your private iCloud database when iCloud is available. Confirm that you are signed in to iCloud and that iCloud Drive is enabled. The developer does not have server-side access to your journal or private iCloud database.
+
+### On-Device Intelligence
+
+Some cleanup, organization, recap, search, and reflection features require a supported Apple device and operating-system version. Core journaling remains available when those intelligence features are unavailable.
+
+### Importing and Exporting
+
+You can export your data as Markdown, JSON, or a full backup from Desandar's Settings. Imports and exports happen only when you choose a file or destination.
+
+## Privacy
+
+Read the [Desandar Privacy Policy](../).
