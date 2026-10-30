@@ -4,7 +4,7 @@ title: Privacy Policy
 
 # Privacy Policy for Desandar
 
-_Last updated: July 28, 2026_
+_Last updated: October 30, 2026_
 
 Desandar (formerly Private AI Journal) is a local-first journaling app built to keep your writing, recordings, photos, and reflections private. This policy explains how Desandar handles your information.
 
@@ -47,6 +47,18 @@ Desandar uses Apple on-device intelligence features when they are available. The
 
 Desandar does not send journal content to the developer, a custom server, or a third-party AI provider for these features.
 
+## Optional Apple Private Cloud Compute
+
+Desandar processes intelligence features on your device by default. On supported devices and operating systems, you can opt in to Apple's Private Cloud Compute for selected features. These choices are off by default and are saved separately on each device.
+
+- **Reflect and Deeper Recaps:** One shared choice. Reflect sends your question, recent conversation, and retrieved journal passages to Apple's model. Deeper Recap sends entries for the chosen period only when you request it.
+- **Organize and Light Cleanup:** Each has its own choice. When enabled, the entry or transcript you choose to refine is sent to Apple's model.
+- **Summarize:** Its own choice. When enabled, the recording transcript you choose to summarize is sent to Apple's model. These features send text, not the original audio recording.
+
+Results show where they were generated. Reflect can answer on device when Private Cloud Compute is unavailable, rewriting and summarizing can fall back to on-device processing, and an unavailable Deeper Recap leaves the existing on-device recap in place. Creating a cleanup or summary preview does not delete your original recording or full transcript.
+
+The developer does not receive these requests. Read [Apple Intelligence & Privacy](https://www.apple.com/legal/privacy/data/en/intelligence-engine/) for Apple's explanation of how Private Cloud Compute handles requests. You can change the Reflect model in Reflect or manage the feature choices in Settings > Privacy & Sync.
+
 ## Optional Device Permissions
 
 Desandar asks for access to device features only when you choose related functionality:
@@ -54,10 +66,10 @@ Desandar asks for access to device features only when you choose related functio
 - **Microphone:** Record audio journal entries.
 - **Speech Recognition:** Transcribe audio locally when supported.
 - **Photo Library and Journaling Suggestions:** Select photos and moments to include.
-- **Calendar and Reminders:** Suggest moments for Write My Day from events or reminders.
-- **Health:** Include summaries such as workouts, steps, or sleep in Write My Day.
+- **Calendar and Reminders:** Suggest moments for Guided Entry from events or reminders.
+- **Health:** Include summaries such as workouts, steps, or sleep in Guided Entry.
 - **Location:** Save a place or related weather as private entry metadata.
-- **Face ID or device passcode:** Lock the app on your device.
+- **Face ID, Touch ID, or your device password or passcode:** Lock the app on your device.
 
 These permissions are optional and can be managed in your device's Settings app. Information from an optional source is kept only when you choose to incorporate it into your journal or use the related feature.
 
